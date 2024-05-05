@@ -1,6 +1,0 @@
-samtools view  28nt.c72_05mm_R1.sorted.q20.bam  | perl get_the_3nt_periodicity_of_transcripts.maize.modified_for_offset.pl c72_05mm_R1_genes.fpkm_tracking - Zea_mays.AGPv4.36.gff3 
-
-
-
-
-

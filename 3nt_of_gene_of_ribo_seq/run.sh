@@ -1,0 +1,10 @@
+
+
+samtools view c72_merged_15mm_sorted.q20.bam | perl get_the_3nt_periodicity_of_transcripts.maize.modified_for_offset.pl c72_15mm_merged_genes.fpkm_tracking - Zea_mays.AGPv4.36.gff3
+
+perl get_the_relative_phasing_start.pl read_number_at_CDS_start.c72_15mm_merged_genes.fpkm_tracking > 27nt.15mm_3nt_relative_phasing_at_CDS_start
+
+perl get_the_relative_phasing_stop.pl read_number_at_CDS_stop.c72_15mm_merged_genes.fpkm_tracking >27nt.15mm_3nt_relative_phasing_at_CDS_stop
+
+
+
